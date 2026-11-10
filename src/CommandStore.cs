@@ -69,6 +69,11 @@ namespace SayAllVoice
                     }
                 }
             }
+            // 输入法把中间结果和最终结果连着写出来：打开抖打开抖音 -> 打开抖音
+            for (int k = t.Length / 2; k >= 2; k--)
+            {
+                if (string.CompareOrdinal(t, 0, t, k, k) == 0) { t = t.Substring(k); break; }
+            }
             return t;
         }
 

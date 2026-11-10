@@ -359,6 +359,7 @@ namespace SayAllVoice
             t.Start();
         }
 
+            Stopwatch idle = Stopwatch.StartNew();
         /// <summary>
         /// 盯 SayAll 的日志判断语音键。它在按下时写 voice_begin，约 100ms 后才合成听写键，
         /// 面板必须赶在听写键之前拿到焦点，否则输入法的麦克风打不开，所以这里用独立线程高频读。
@@ -381,7 +382,26 @@ namespace SayAllVoice
                     }
                     long len = fs.Length;
                     if (len < pos) pos = 0;
-                    if (len == pos) { Thread.Sleep(8); continue; }
+                    if (len == pos)
+                    {
+                        // SayAll 写满约 10MB 会把日志改名存档、另起新文件；手里的句柄还指着旧文件，
+                        // 必须换到新文件，否则从此收不到按键。新文件比旧文件短就说明轮换过。
+                        if (idle.ElapsedMilliseconds > 1000)
+                        {
+                            idle.Restart();
+                            FileInfo fi = new FileInfo(_sayAllLog);
+                            if (fi.Exists && fi.Length < len)
+                            {
+                                Log.Write("sayall log rotated, reopening");
+                                fs.Dispose();
+                                fs = new FileStream(_sayAllLog, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete, 1);
+                                pos = 0;
+                                continue;
+                            }
+                        }
+                        Thread.Sleep(8);
+                        continue;
+                    }
                     fs.Seek(pos, SeekOrigin.Begin);
                     int n = fs.Read(buf, 0, buf.Length);
                     int end = Array.LastIndexOf(buf, (byte)'\n', Math.Max(0, n - 1));
@@ -422,6 +442,7 @@ namespace SayAllVoice
             else if (l.IndexOf(" chord_press result=ok", StringComparison.Ordinal) >= 0)
             {
                 _chordAt = Stopwatch.GetTimestamp();
+                CheckHookAlive(_chordAt);
                 long focus = _focusAt;
                 BeginInvokeUI(delegate
                 {
@@ -540,13 +561,37 @@ namespace SayAllVoice
             Native.MSG msg;
             while (Native.GetMessage(out msg, IntPtr.Zero, 0, 0) > 0)
             {
+                if (msg.message == WM_REHOOK)
+                {
+                    if (_hookId != IntPtr.Zero) Native.UnhookWindowsHookEx(_hookId);
+                    _hookId = Native.SetWindowsHookEx(Native.WH_KEYBOARD_LL, _hookProc, Native.GetModuleHandle(null), 0);
+                    Log.Write("hook reinstalled id=" + _hookId);
+                    continue;
+                }
                 Native.TranslateMessage(ref msg);
                 Native.DispatchMessage(ref msg);
             }
         }
 
+        // 回调偶尔超时，Windows 会不打招呼地摘掉低层钩子。SayAll 合成听写键后钩子却一直没动静，就重装。
+        private const uint WM_REHOOK = 0x8007;
+        private long _hookSeenAt;
+
+        private void CheckHookAlive(long chordAt)
+        {
+            System.Threading.Timer t = null;
+            t = new System.Threading.Timer(delegate
+            {
+                t.Dispose();
+                if (_hookSeenAt >= chordAt || _hookThreadId == 0 || !S.HookEnabled) return;
+                Log.Warn("hook silent after sayall chord, reinstalling");
+                Native.PostThreadMessage(_hookThreadId, WM_REHOOK, IntPtr.Zero, IntPtr.Zero);
+            }, null, 600, Timeout.Infinite);
+        }
+
         private IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
         {
+            _hookSeenAt = Stopwatch.GetTimestamp();
             if (nCode >= 0 && S.HookEnabled)
             {
                 try
