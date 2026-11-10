@@ -6,9 +6,9 @@ using System.Reflection;
 [assembly: AssemblyDescription("按住说一句，电脑就去做 · https://github.com/707717997/just-say-everything")]
 [assembly: AssemblyCompany("707717997")]
 [assembly: AssemblyCopyright("Copyright 2026 707717997 · Apache-2.0")]
-[assembly: AssemblyVersion("0.2.1.0")]
-[assembly: AssemblyFileVersion("0.2.1.0")]
-[assembly: AssemblyInformationalVersion("0.2.1+jse-7077")]
+[assembly: AssemblyVersion("0.2.2.0")]
+[assembly: AssemblyFileVersion("0.2.2.0")]
+[assembly: AssemblyInformationalVersion("0.2.2+jse-7077")]
 
 namespace SayAllVoice
 {
