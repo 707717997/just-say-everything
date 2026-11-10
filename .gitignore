@@ -4,3 +4,5 @@ dist/
 asr/node_modules/
 asr/sense-voice/
 *.log
+*.orig
+*.rej
