@@ -5,6 +5,11 @@ Turns push-to-talk dictation into push-to-talk <i>commands</i>: say <code>open W
 
 <p align="center"><a href="README.md">中文</a> · <a href="docs/COMMANDS.md">All commands (Chinese)</a></p>
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Demo: holding the remote and saying open calculator, open Bilibili, maximize, show desktop" width="100%"><br>
+  <sub>Real recording at 1.4x: hold the remote and say "open calculator", "open Bilibili", "maximize", "show desktop" (in Chinese)</sub>
+</p>
+
 ---
 
 ## Why

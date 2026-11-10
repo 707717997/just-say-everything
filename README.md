@@ -16,6 +16,11 @@
 
 <p align="center"><a href="README.en.md">English</a> · <a href="docs/COMMANDS.md">全部指令</a> · <a href="docs/使用说明.md">完整使用说明</a></p>
 
+<p align="center">
+  <img src="docs/demo.gif" alt="演示：按住遥控器说「打开计算器」「打开 B 站」「最大化」「回到桌面」" width="100%"><br>
+  <sub>实录（1.4 倍速）：按住遥控器依次说「打开计算器」「打开 B 站」「最大化」「回到桌面」</sub>
+</p>
+
 ---
 
 ## 为什么做这个
