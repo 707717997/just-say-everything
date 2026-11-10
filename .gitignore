@@ -1,0 +1,6 @@
+dist/
+*.exe
+*.pdb
+asr/node_modules/
+asr/sense-voice/
+*.log

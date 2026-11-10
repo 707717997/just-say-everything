@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "app_wechat",
+    "name": "打开微信",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:微信",
+    "aliases": [
+      "微信",
+      "开微信",
+      "wechat",
+      "wx"
+    ],
+    "hint": "打开 微信"
+  },
+  {
+    "id": "app_wxwork",
+    "name": "打开企业微信",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:企业微信",
+    "aliases": [
+      "企业微信",
+      "企微",
+      "wxwork"
+    ],
+    "hint": "打开 企业微信"
+  },
+  {
+    "id": "app_qq",
+    "name": "打开QQ",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:QQ",
+    "aliases": [
+      "qq",
+      "腾讯qq"
+    ],
+    "hint": "打开 QQ"
+  },
+  {
+    "id": "app_chrome",
+    "name": "打开Chrome",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:Chrome",
+    "aliases": [
+      "谷歌浏览器",
+      "chrome",
+      "浏览器",
+      "谷歌"
+    ],
+    "hint": "打开 Chrome"
+  },
+  {
+    "id": "app_edge",
+    "name": "打开Edge",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:Edge",
+    "aliases": [
+      "edge",
+      "微软浏览器"
+    ],
+    "hint": "打开 Edge"
+  },
+  {
+    "id": "app_notepad",
+    "name": "打开记事本",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:记事本",
+    "aliases": [
+      "记事本",
+      "notepad"
+    ],
+    "hint": "打开 记事本"
+  },
+  {
+    "id": "app_calc",
+    "name": "打开计算器",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:计算器",
+    "aliases": [
+      "计算器",
+      "calc"
+    ],
+    "hint": "打开 计算器"
+  },
+  {
+    "id": "app_paint",
+    "name": "打开画图",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:画图",
+    "aliases": [
+      "画图",
+      "mspaint"
+    ],
+    "hint": "打开 画图"
+  },
+  {
+    "id": "app_explorer",
+    "name": "打开资源管理器",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:资源管理器",
+    "aliases": [
+      "资源管理器",
+      "我的电脑",
+      "此电脑",
+      "文件管理器",
+      "explorer"
+    ],
+    "hint": "打开 资源管理器"
+  },
+  {
+    "id": "app_cmd",
+    "name": "打开命令提示符",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:命令提示符",
+    "aliases": [
+      "命令提示符",
+      "cmd",
+      "命令行"
+    ],
+    "hint": "打开 命令提示符"
+  },
+  {
+    "id": "app_ps",
+    "name": "打开PowerShell",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:PowerShell",
+    "aliases": [
+      "powershell",
+      "终端"
+    ],
+    "hint": "打开 PowerShell"
+  },
+  {
+    "id": "app_taskmgr",
+    "name": "打开任务管理器",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:任务管理器",
+    "aliases": [
+      "任务管理器",
+      "taskmgr"
+    ],
+    "hint": "打开 任务管理器"
+  },
+  {
+    "id": "app_settings",
+    "name": "打开系统设置",
+    "category": "应用",
+    "action": "open_app",
+    "target": "ms-settings:",
+    "aliases": [
+      "设置",
+      "系统设置",
+      "windows设置"
+    ],
+    "hint": "打开 设置"
+  },
+  {
+    "id": "app_snip",
+    "name": "打开截图工具",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:截图工具",
+    "aliases": [
+      "截图工具",
+      "snippingtool"
+    ],
+    "hint": "打开 截图工具"
+  },
+  {
+    "id": "app_word",
+    "name": "打开Word",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:Word",
+    "aliases": [
+      "word",
+      "文档",
+      "写文档"
+    ],
+    "hint": "打开 Word"
+  },
+  {
+    "id": "app_excel",
+    "name": "打开Excel",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:Excel",
+    "aliases": [
+      "excel",
+      "表格",
+      "电子表格"
+    ],
+    "hint": "打开 Excel"
+  },
+  {
+    "id": "app_ppt",
+    "name": "打开PowerPoint",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:PowerPoint",
+    "aliases": [
+      "ppt",
+      "幻灯片",
+      "演示文稿"
+    ],
+    "hint": "打开 PowerPoint"
+  },
+  {
+    "id": "app_vscode",
+    "name": "打开VS Code",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:VS Code",
+    "aliases": [
+      "vscode",
+      "代码编辑器",
+      "vs code"
+    ],
+    "hint": "打开 VS Code"
+  },
+  {
+    "id": "app_dingtalk",
+    "name": "打开钉钉",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:钉钉",
+    "aliases": [
+      "钉钉",
+      "dingtalk"
+    ],
+    "hint": "打开 钉钉"
+  },
+  {
+    "id": "app_feishu",
+    "name": "打开飞书",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:飞书",
+    "aliases": [
+      "飞书",
+      "feishu",
+      "lark"
+    ],
+    "hint": "打开 飞书"
+  },
+  {
+    "id": "app_music",
+    "name": "打开网易云音乐",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:网易云音乐",
+    "aliases": [
+      "网易云",
+      "网易云音乐",
+      "听歌",
+      "音乐"
+    ],
+    "hint": "打开 网易云音乐"
+  },
+  {
+    "id": "app_bandizip",
+    "name": "打开Bandizip",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:Bandizip",
+    "aliases": [
+      "bandizip",
+      "解压软件",
+      "压缩软件"
+    ],
+    "hint": "打开 Bandizip"
+  },
+  {
+    "id": "sys_lock",
+    "name": "锁定屏幕",
+    "category": "系统",
+    "action": "system",
+    "op": "lock",
+    "aliases": [
+      "锁屏",
+      "锁定",
+      "锁定屏幕"
+    ],
+    "hint": "锁定屏幕"
+  },
+  {
+    "id": "sys_sleep",
+    "name": "睡眠",
+    "category": "系统",
+    "action": "system",
+    "op": "sleep",
+    "aliases": [
+      "睡眠",
+      "休眠",
+      "待机"
+    ],
+    "hint": "进入睡眠"
+  },
+  {
+    "id": "sys_shutdown",
+    "name": "关机",
+    "category": "系统",
+    "action": "system",
+    "op": "shutdown",
+    "aliases": [
+      "关机",
+      "关闭电脑"
+    ],
+    "hint": "关机（立即）"
+  },
+  {
+    "id": "sys_restart",
+    "name": "重启",
+    "category": "系统",
+    "action": "system",
+    "op": "restart",
+    "aliases": [
+      "重启",
+      "重启电脑",
+      "重新启动"
+    ],
+    "hint": "重启（立即）"
+  },
+  {
+    "id": "sys_logoff",
+    "name": "注销",
+    "category": "系统",
+    "action": "system",
+    "op": "logoff",
+    "aliases": [
+      "注销",
+      "退出登录"
+    ],
+    "hint": "注销当前用户"
+  },
+  {
+    "id": "sys_mute",
+    "name": "静音",
+    "category": "系统",
+    "action": "system",
+    "op": "mute",
+    "aliases": [
+      "静音",
+      "关闭声音",
+      "关掉声音",
+      "把声音关掉",
+      "声音关掉",
+      "静音一下",
+      "没声音"
+    ],
+    "hint": "切换静音"
+  },
+  {
+    "id": "sys_volup",
+    "name": "音量加",
+    "category": "系统",
+    "action": "system",
+    "op": "volup",
+    "aliases": [
+      "音量加",
+      "大声点",
+      "调大音量",
+      "音量调大",
+      "声音大一点",
+      "音量大一点",
+      "增大音量",
+      "声音大点",
+      "太小声了",
+      "调高音量",
+      "音量调高",
+      "声音调大",
+      "声音调高",
+      "调大声音",
+      "调高声音",
+      "大声一点"
+    ],
+    "hint": "音量 +"
+  },
+  {
+    "id": "sys_voldown",
+    "name": "音量减",
+    "category": "系统",
+    "action": "system",
+    "op": "voldown",
+    "aliases": [
+      "音量减",
+      "小声点",
+      "调小音量",
+      "音量调小",
+      "声音小一点",
+      "音量小一点",
+      "减小音量",
+      "声音小点",
+      "太吵了",
+      "调低音量",
+      "音量调低",
+      "声音调小",
+      "声音调低",
+      "调小声音",
+      "调低声音",
+      "小声一点"
+    ],
+    "hint": "音量 −"
+  },
+  {
+    "id": "sys_play",
+    "name": "播放暂停",
+    "category": "系统",
+    "action": "system",
+    "op": "playpause",
+    "aliases": [
+      "播放暂停",
+      "暂停",
+      "继续播放",
+      "播放"
+    ],
+    "hint": "播放 / 暂停"
+  },
+  {
+    "id": "sys_next",
+    "name": "下一首",
+    "category": "系统",
+    "action": "system",
+    "op": "next",
+    "aliases": [
+      "下一首",
+      "切歌",
+      "下一曲"
+    ],
+    "hint": "下一首"
+  },
+  {
+    "id": "sys_prev",
+    "name": "上一首",
+    "category": "系统",
+    "action": "system",
+    "op": "prev",
+    "aliases": [
+      "上一首",
+      "上一曲"
+    ],
+    "hint": "上一首"
+  },
+  {
+    "id": "sys_top",
+    "name": "窗口置顶",
+    "category": "系统",
+    "action": "system",
+    "op": "alwaysontop",
+    "aliases": [
+      "窗口置顶",
+      "置顶",
+      "取消置顶"
+    ],
+    "hint": "切换窗口置顶"
+  },
+  {
+    "id": "sys_close",
+    "name": "关闭窗口",
+    "category": "系统",
+    "action": "system",
+    "op": "closewindow",
+    "aliases": [
+      "关闭窗口",
+      "关掉窗口",
+      "关闭",
+      "关闭当前窗口",
+      "关掉当前窗口",
+      "把这个关掉"
+    ],
+    "hint": "Alt+F4"
+  },
+  {
+    "id": "sys_max",
+    "name": "最大化窗口",
+    "category": "系统",
+    "action": "system",
+    "op": "maximize",
+    "aliases": [
+      "最大化",
+      "最大化窗口"
+    ],
+    "hint": "最大化当前窗口"
+  },
+  {
+    "id": "sys_min",
+    "name": "最小化窗口",
+    "category": "系统",
+    "action": "system",
+    "op": "minimize",
+    "aliases": [
+      "最小化",
+      "最小化窗口"
+    ],
+    "hint": "最小化当前窗口"
+  },
+  {
+    "id": "sys_desktop",
+    "name": "显示桌面",
+    "category": "系统",
+    "action": "system",
+    "op": "showdesktop",
+    "aliases": [
+      "显示桌面",
+      "回到桌面",
+      "回桌面",
+      "返回桌面",
+      "到桌面",
+      "桌面",
+      "切到桌面"
+    ],
+    "hint": "显示桌面"
+  },
+  {
+    "id": "sys_taskview",
+    "name": "任务视图",
+    "category": "系统",
+    "action": "system",
+    "op": "taskview",
+    "aliases": [
+      "任务视图",
+      "所有窗口"
+    ],
+    "hint": "任务视图"
+  },
+  {
+    "id": "sys_switch",
+    "name": "切换到上一个程序",
+    "category": "系统",
+    "action": "system",
+    "op": "switchwindow",
+    "aliases": [
+      "切换窗口",
+      "下一个窗口",
+      "切窗口",
+      "上一个程序",
+      "上一个应用",
+      "上一个软件",
+      "上个程序",
+      "上个窗口",
+      "切到上一个程序",
+      "回到上一个程序",
+      "返回上一个程序",
+      "切换上一个程序",
+      "切回去",
+      "切回上一个",
+      "切换程序"
+    ],
+    "hint": "切到最近用过的另一个程序"
+  },
+  {
+    "id": "sys_shot",
+    "name": "截图",
+    "category": "系统",
+    "action": "system",
+    "op": "screenshot",
+    "aliases": [
+      "截图",
+      "截屏",
+      "区域截图",
+      "截个图",
+      "截一张图",
+      "屏幕截图",
+      "截屏一下",
+      "帮我截图"
+    ],
+    "hint": "截图（Win+Shift+S）"
+  },
+  {
+    "id": "sys_shotall",
+    "name": "全屏截图",
+    "category": "系统",
+    "action": "system",
+    "op": "fullscreenshot",
+    "aliases": [
+      "全屏截图",
+      "整屏截图",
+      "全屏截图并保存",
+      "截全屏",
+      "截个全屏"
+    ],
+    "hint": "全屏截图并保存"
+  },
+  {
+    "id": "sys_record",
+    "name": "录屏",
+    "category": "系统",
+    "action": "system",
+    "op": "record",
+    "aliases": [
+      "录屏",
+      "屏幕录制",
+      "开始录制"
+    ],
+    "hint": "开始/停止录屏"
+  },
+  {
+    "id": "sys_run",
+    "name": "运行",
+    "category": "系统",
+    "action": "system",
+    "op": "run",
+    "aliases": [
+      "运行",
+      "打开运行"
+    ],
+    "hint": "Win+R"
+  },
+  {
+    "id": "sys_search",
+    "name": "系统搜索",
+    "category": "系统",
+    "action": "system",
+    "op": "search",
+    "aliases": [
+      "系统搜索",
+      "搜索程序"
+    ],
+    "hint": "Win+S"
+  },
+  {
+    "id": "sys_files",
+    "name": "打开文件管理器",
+    "category": "系统",
+    "action": "system",
+    "op": "explorer",
+    "aliases": [
+      "文件管理器",
+      "打开文件夹"
+    ],
+    "hint": "Win+E"
+  },
+  {
+    "id": "sys_recycle",
+    "name": "打开回收站",
+    "category": "系统",
+    "action": "open_app",
+    "target": "shell:RecycleBinFolder",
+    "aliases": [
+      "回收站",
+      "打开回收站",
+      "垃圾箱"
+    ],
+    "hint": "打开回收站"
+  },
+  {
+    "id": "sys_downloads",
+    "name": "打开下载文件夹",
+    "category": "系统",
+    "action": "open_app",
+    "target": "shell:Downloads",
+    "aliases": [
+      "下载文件夹",
+      "打开下载",
+      "我的下载"
+    ],
+    "hint": "打开下载目录"
+  },
+  {
+    "id": "sys_help",
+    "name": "打开指令库",
+    "category": "系统",
+    "action": "system",
+    "op": "library",
+    "aliases": [
+      "指令库",
+      "帮助",
+      "有哪些指令",
+      "指令列表",
+      "打开指令库",
+      "怎么用",
+      "有什么指令"
+    ],
+    "hint": "查看全部指令"
+  },
+  {
+    "id": "sys_notify",
+    "name": "通知中心",
+    "category": "系统",
+    "action": "system",
+    "op": "notifications",
+    "aliases": [
+      "通知中心",
+      "看通知"
+    ],
+    "hint": "Win+A"
+  },
+  {
+    "id": "sys_clip",
+    "name": "剪贴板历史",
+    "category": "系统",
+    "action": "system",
+    "op": "clipboard",
+    "aliases": [
+      "剪贴板",
+      "剪贴板历史"
+    ],
+    "hint": "Win+V"
+  },
+  {
+    "id": "sys_emoji",
+    "name": "表情面板",
+    "category": "系统",
+    "action": "system",
+    "op": "emoji",
+    "aliases": [
+      "表情",
+      "表情面板",
+      "emoji"
+    ],
+    "hint": "Win+."
+  },
+  {
+    "id": "sys_project",
+    "name": "投影",
+    "category": "系统",
+    "action": "system",
+    "op": "project",
+    "aliases": [
+      "投影",
+      "投屏",
+      "扩展屏幕"
+    ],
+    "hint": "Win+P"
+  },
+  {
+    "id": "ed_copy",
+    "name": "复制",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+c",
+    "aliases": [
+      "复制",
+      "拷贝"
+    ],
+    "hint": "Ctrl+C"
+  },
+  {
+    "id": "ed_paste",
+    "name": "粘贴",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+v",
+    "aliases": [
+      "粘贴",
+      "贴上"
+    ],
+    "hint": "Ctrl+V"
+  },
+  {
+    "id": "ed_cut",
+    "name": "剪切",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+x",
+    "aliases": [
+      "剪切",
+      "剪下"
+    ],
+    "hint": "Ctrl+X"
+  },
+  {
+    "id": "ed_undo",
+    "name": "撤销",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+z",
+    "aliases": [
+      "撤销",
+      "撤回"
+    ],
+    "hint": "Ctrl+Z"
+  },
+  {
+    "id": "ed_redo",
+    "name": "重做",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+y",
+    "aliases": [
+      "重做",
+      "恢复"
+    ],
+    "hint": "Ctrl+Y"
+  },
+  {
+    "id": "ed_all",
+    "name": "全选",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+a",
+    "aliases": [
+      "全选",
+      "选择全部"
+    ],
+    "hint": "Ctrl+A"
+  },
+  {
+    "id": "ed_save",
+    "name": "保存",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+s",
+    "aliases": [
+      "保存",
+      "存一下"
+    ],
+    "hint": "Ctrl+S"
+  },
+  {
+    "id": "ed_saveas",
+    "name": "另存为",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+shift+s",
+    "aliases": [
+      "另存为",
+      "保存到"
+    ],
+    "hint": "Ctrl+Shift+S"
+  },
+  {
+    "id": "ed_find",
+    "name": "查找",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+f",
+    "aliases": [
+      "查找",
+      "搜索一下",
+      "找一下"
+    ],
+    "hint": "Ctrl+F"
+  },
+  {
+    "id": "ed_replace",
+    "name": "替换",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+h",
+    "aliases": [
+      "替换",
+      "查找替换"
+    ],
+    "hint": "Ctrl+H"
+  },
+  {
+    "id": "ed_print",
+    "name": "打印",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+p",
+    "aliases": [
+      "打印",
+      "打出来"
+    ],
+    "hint": "Ctrl+P"
+  },
+  {
+    "id": "ed_new",
+    "name": "新建",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+n",
+    "aliases": [
+      "新建",
+      "新建文件"
+    ],
+    "hint": "Ctrl+N"
+  },
+  {
+    "id": "ed_open",
+    "name": "打开文件",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+o",
+    "aliases": [
+      "打开文件",
+      "打开文档"
+    ],
+    "hint": "Ctrl+O"
+  },
+  {
+    "id": "ed_closetab",
+    "name": "关闭标签页",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+w",
+    "aliases": [
+      "关闭标签页",
+      "关闭标签",
+      "关掉标签"
+    ],
+    "hint": "Ctrl+W"
+  },
+  {
+    "id": "ed_newtab",
+    "name": "新建标签页",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+t",
+    "aliases": [
+      "新建标签页",
+      "新标签",
+      "新开标签"
+    ],
+    "hint": "Ctrl+T"
+  },
+  {
+    "id": "ed_reopen",
+    "name": "恢复关闭的标签",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+shift+t",
+    "aliases": [
+      "恢复标签",
+      "恢复关闭的标签",
+      "刚才的网页"
+    ],
+    "hint": "Ctrl+Shift+T"
+  },
+  {
+    "id": "ed_refresh",
+    "name": "刷新",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "f5",
+    "aliases": [
+      "刷新",
+      "重新加载"
+    ],
+    "hint": "F5"
+  },
+  {
+    "id": "ed_back",
+    "name": "后退",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "alt+left",
+    "aliases": [
+      "后退",
+      "返回上一页"
+    ],
+    "hint": "Alt+←"
+  },
+  {
+    "id": "ed_forward",
+    "name": "前进",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "alt+right",
+    "aliases": [
+      "前进",
+      "下一页"
+    ],
+    "hint": "Alt+→"
+  },
+  {
+    "id": "ed_zoomin",
+    "name": "放大",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+equals",
+    "aliases": [
+      "放大",
+      "放大一点"
+    ],
+    "hint": "Ctrl++"
+  },
+  {
+    "id": "ed_zoomout",
+    "name": "缩小",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+minus",
+    "aliases": [
+      "缩小",
+      "缩小一点"
+    ],
+    "hint": "Ctrl+-"
+  },
+  {
+    "id": "ed_zoomreset",
+    "name": "重置缩放",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+0",
+    "aliases": [
+      "重置缩放",
+      "恢复大小"
+    ],
+    "hint": "Ctrl+0"
+  },
+  {
+    "id": "ed_bold",
+    "name": "加粗",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+b",
+    "aliases": [
+      "加粗",
+      "粗体"
+    ],
+    "hint": "Ctrl+B"
+  },
+  {
+    "id": "ed_italic",
+    "name": "斜体",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+i",
+    "aliases": [
+      "斜体",
+      "倾斜"
+    ],
+    "hint": "Ctrl+I"
+  },
+  {
+    "id": "ed_under",
+    "name": "下划线",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+u",
+    "aliases": [
+      "下划线",
+      "加下划线"
+    ],
+    "hint": "Ctrl+U"
+  },
+  {
+    "id": "ed_center",
+    "name": "居中对齐",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+e",
+    "aliases": [
+      "居中",
+      "居中对齐"
+    ],
+    "hint": "Ctrl+E"
+  },
+  {
+    "id": "ed_left",
+    "name": "左对齐",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+l",
+    "aliases": [
+      "左对齐"
+    ],
+    "hint": "Ctrl+L"
+  },
+  {
+    "id": "ed_right",
+    "name": "右对齐",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+r",
+    "aliases": [
+      "右对齐"
+    ],
+    "hint": "Ctrl+R"
+  },
+  {
+    "id": "ed_enter",
+    "name": "回车",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "enter",
+    "aliases": [
+      "回车",
+      "换行",
+      "发送"
+    ],
+    "hint": "Enter"
+  },
+  {
+    "id": "ed_tab",
+    "name": "Tab 键",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "tab",
+    "aliases": [
+      "tab键",
+      "下一个输入框"
+    ],
+    "hint": "Tab"
+  },
+  {
+    "id": "win_left",
+    "name": "左半屏",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+left",
+    "aliases": [
+      "左半屏",
+      "靠左",
+      "放左边"
+    ],
+    "hint": "Win+←"
+  },
+  {
+    "id": "win_right",
+    "name": "右半屏",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+right",
+    "aliases": [
+      "右半屏",
+      "靠右",
+      "放右边"
+    ],
+    "hint": "Win+→"
+  },
+  {
+    "id": "win_up",
+    "name": "上半屏",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+up",
+    "aliases": [
+      "上半屏",
+      "靠上"
+    ],
+    "hint": "Win+↑"
+  },
+  {
+    "id": "win_down",
+    "name": "下半屏",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+down",
+    "aliases": [
+      "下半屏",
+      "靠下"
+    ],
+    "hint": "Win+↓"
+  },
+  {
+    "id": "win_nextmon",
+    "name": "移到下一个显示器",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+shift+right",
+    "aliases": [
+      "下一个显示器",
+      "移到另一个屏幕"
+    ],
+    "hint": "Win+Shift+→"
+  },
+  {
+    "id": "win_prevmon",
+    "name": "移到上一个显示器",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "win+shift+left",
+    "aliases": [
+      "上一个显示器"
+    ],
+    "hint": "Win+Shift+←"
+  },
+  {
+    "id": "web_baidu",
+    "name": "打开百度",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.baidu.com",
+    "aliases": [
+      "百度",
+      "打开百度"
+    ],
+    "hint": "打开 baidu.com"
+  },
+  {
+    "id": "web_bili",
+    "name": "打开B站",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.bilibili.com",
+    "aliases": [
+      "b站",
+      "哔哩哔哩",
+      "bilibili"
+    ],
+    "hint": "打开 bilibili.com"
+  },
+  {
+    "id": "web_zhihu",
+    "name": "打开知乎",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.zhihu.com",
+    "aliases": [
+      "知乎"
+    ],
+    "hint": "打开 zhihu.com"
+  },
+  {
+    "id": "web_taobao",
+    "name": "打开淘宝",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.taobao.com",
+    "aliases": [
+      "淘宝"
+    ],
+    "hint": "打开 taobao.com"
+  },
+  {
+    "id": "web_jd",
+    "name": "打开京东",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.jd.com",
+    "aliases": [
+      "京东"
+    ],
+    "hint": "打开 jd.com"
+  },
+  {
+    "id": "web_douyin",
+    "name": "打开抖音",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.douyin.com",
+    "aliases": [
+      "抖音"
+    ],
+    "hint": "打开 douyin.com"
+  },
+  {
+    "id": "web_weibo",
+    "name": "打开微博",
+    "category": "网页",
+    "action": "url",
+    "target": "https://weibo.com",
+    "aliases": [
+      "微博"
+    ],
+    "hint": "打开 weibo.com"
+  },
+  {
+    "id": "web_github",
+    "name": "打开GitHub",
+    "category": "网页",
+    "action": "url",
+    "target": "https://github.com",
+    "aliases": [
+      "github",
+      "代码仓库"
+    ],
+    "hint": "打开 github.com"
+  },
+  {
+    "id": "web_chatgpt",
+    "name": "打开ChatGPT",
+    "category": "网页",
+    "action": "url",
+    "target": "https://chatgpt.com",
+    "aliases": [
+      "chatgpt",
+      "gpt"
+    ],
+    "hint": "打开 chatgpt.com"
+  },
+  {
+    "id": "web_deepseek",
+    "name": "打开DeepSeek网页",
+    "category": "网页",
+    "action": "url",
+    "target": "https://chat.deepseek.com",
+    "aliases": [
+      "deepseek网页",
+      "深度求索网页"
+    ],
+    "hint": "打开 chat.deepseek.com"
+  },
+  {
+    "id": "web_youtube",
+    "name": "打开YouTube",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.youtube.com",
+    "aliases": [
+      "youtube",
+      "油管"
+    ],
+    "hint": "打开 youtube.com"
+  },
+  {
+    "id": "web_translate",
+    "name": "打开翻译",
+    "category": "网页",
+    "action": "url",
+    "target": "https://fanyi.baidu.com",
+    "aliases": [
+      "翻译",
+      "打开翻译",
+      "百度翻译"
+    ],
+    "hint": "打开 百度翻译"
+  },
+  {
+    "id": "web_map",
+    "name": "打开地图",
+    "category": "网页",
+    "action": "url",
+    "target": "https://map.baidu.com",
+    "aliases": [
+      "地图",
+      "打开地图",
+      "百度地图",
+      "高德地图",
+      "查地图"
+    ],
+    "hint": "打开 百度地图"
+  },
+  {
+    "id": "web_mail",
+    "name": "打开邮箱",
+    "category": "网页",
+    "action": "url",
+    "target": "https://mail.qq.com",
+    "aliases": [
+      "邮箱",
+      "打开邮箱",
+      "qq邮箱"
+    ],
+    "hint": "打开 QQ 邮箱"
+  },
+  {
+    "id": "web_doc",
+    "name": "打开腾讯文档",
+    "category": "网页",
+    "action": "url",
+    "target": "https://docs.qq.com",
+    "aliases": [
+      "腾讯文档",
+      "在线文档"
+    ],
+    "hint": "打开 腾讯文档"
+  },
+  {
+    "id": "web_yuque",
+    "name": "打开语雀",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.yuque.com",
+    "aliases": [
+      "语雀"
+    ],
+    "hint": "打开 语雀"
+  },
+  {
+    "id": "web_notion",
+    "name": "打开Notion",
+    "category": "网页",
+    "action": "url",
+    "target": "https://www.notion.so",
+    "aliases": [
+      "notion"
+    ],
+    "hint": "打开 Notion"
+  },
+  {
+    "id": "brw_addr",
+    "name": "地址栏",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+l",
+    "aliases": [
+      "地址栏",
+      "输入网址",
+      "打开地址栏"
+    ],
+    "hint": "Ctrl+L"
+  },
+  {
+    "id": "brw_full",
+    "name": "全屏",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "f11",
+    "aliases": [
+      "全屏",
+      "全屏显示",
+      "退出全屏"
+    ],
+    "hint": "F11"
+  },
+  {
+    "id": "brw_dev",
+    "name": "开发者工具",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "f12",
+    "aliases": [
+      "开发者工具",
+      "控制台",
+      "审查元素",
+      "f12"
+    ],
+    "hint": "F12"
+  },
+  {
+    "id": "brw_bookmark",
+    "name": "收藏网页",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+d",
+    "aliases": [
+      "收藏网页",
+      "加书签",
+      "收藏一下"
+    ],
+    "hint": "Ctrl+D"
+  },
+  {
+    "id": "brw_history",
+    "name": "历史记录",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+h",
+    "aliases": [
+      "历史记录",
+      "浏览历史",
+      "看历史"
+    ],
+    "hint": "Ctrl+H"
+  },
+  {
+    "id": "brw_downloads",
+    "name": "下载内容",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+j",
+    "aliases": [
+      "下载内容",
+      "下载列表",
+      "看下载"
+    ],
+    "hint": "Ctrl+J"
+  },
+  {
+    "id": "brw_hardrefresh",
+    "name": "强制刷新",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+f5",
+    "aliases": [
+      "强制刷新",
+      "硬刷新",
+      "清缓存刷新"
+    ],
+    "hint": "Ctrl+F5"
+  },
+  {
+    "id": "fs_rename",
+    "name": "重命名",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "f2",
+    "aliases": [
+      "重命名",
+      "改名"
+    ],
+    "hint": "F2"
+  },
+  {
+    "id": "fs_delete",
+    "name": "删除文件",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "delete",
+    "aliases": [
+      "删除文件",
+      "删掉这个",
+      "移到回收站"
+    ],
+    "hint": "Delete"
+  },
+  {
+    "id": "fs_newfolder",
+    "name": "新建文件夹",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+shift+n",
+    "aliases": [
+      "新建文件夹",
+      "建个文件夹"
+    ],
+    "hint": "Ctrl+Shift+N"
+  },
+  {
+    "id": "fs_props",
+    "name": "文件属性",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "alt+enter",
+    "aliases": [
+      "文件属性",
+      "属性",
+      "看属性"
+    ],
+    "hint": "Alt+Enter"
+  },
+  {
+    "id": "fs_copypath",
+    "name": "复制文件路径",
+    "category": "编辑",
+    "action": "keys",
+    "keys": "ctrl+shift+c",
+    "aliases": [
+      "复制文件路径",
+      "复制路径",
+      "复制地址"
+    ],
+    "hint": "Ctrl+Shift+C"
+  },
+  {
+    "id": "win_newdesk",
+    "name": "新建桌面",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "ctrl+win+d",
+    "aliases": [
+      "新建桌面",
+      "新桌面",
+      "开个新桌面"
+    ],
+    "hint": "Ctrl+Win+D"
+  },
+  {
+    "id": "win_closedesk",
+    "name": "关闭桌面",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "ctrl+win+f4",
+    "aliases": [
+      "关闭桌面",
+      "关掉这个桌面"
+    ],
+    "hint": "Ctrl+Win+F4"
+  },
+  {
+    "id": "win_deskleft",
+    "name": "左边的桌面",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "ctrl+win+left",
+    "aliases": [
+      "左边的桌面",
+      "上一个桌面",
+      "切换桌面"
+    ],
+    "hint": "Ctrl+Win+←"
+  },
+  {
+    "id": "win_deskright",
+    "name": "右边的桌面",
+    "category": "窗口",
+    "action": "keys",
+    "keys": "ctrl+win+right",
+    "aliases": [
+      "右边的桌面",
+      "下一个桌面"
+    ],
+    "hint": "Ctrl+Win+→"
+  },
+  {
+    "id": "sys_gamebar",
+    "name": "游戏栏",
+    "category": "系统",
+    "action": "system",
+    "op": "gamebar",
+    "aliases": [
+      "游戏栏",
+      "录屏工具",
+      "xbox"
+    ],
+    "hint": "Win+G"
+  },
+  {
+    "id": "sys_focus_input",
+    "name": "聚焦输入框",
+    "category": "系统",
+    "action": "system",
+    "op": "focusinput",
+    "hint": "光标跳到当前窗口的输入框",
+    "aliases": [
+      "输入框",
+      "聚焦输入",
+      "定位输入框",
+      "回到输入框",
+      "焦点到输入框",
+      "聚焦到输入框",
+      "光标到输入框",
+      "点输入框",
+      "跳到输入框"
+    ]
+  },
+  {
+    "id": "pin_1",
+    "name": "打开置顶的第一个会话",
+    "category": "系统",
+    "action": "system",
+    "op": "pinned:1",
+    "hint": "Claude 左栏「已置顶」第 1 个",
+    "aliases": [
+      "第一个会话",
+      "置顶第一个",
+      "打开第一个会话"
+    ]
+  },
+  {
+    "id": "pin_2",
+    "name": "打开置顶的第二个会话",
+    "category": "系统",
+    "action": "system",
+    "op": "pinned:2",
+    "hint": "Claude 左栏「已置顶」第 2 个",
+    "aliases": [
+      "第二个会话",
+      "置顶第二个",
+      "打开第二个会话"
+    ]
+  },
+  {
+    "id": "pin_3",
+    "name": "打开置顶的第三个会话",
+    "category": "系统",
+    "action": "system",
+    "op": "pinned:3",
+    "hint": "Claude 左栏「已置顶」第 3 个",
+    "aliases": [
+      "第三个会话",
+      "置顶第三个",
+      "打开第三个会话"
+    ]
+  },
+  {
+    "id": "pin_4",
+    "name": "打开置顶的第四个会话",
+    "category": "系统",
+    "action": "system",
+    "op": "pinned:4",
+    "hint": "Claude 左栏「已置顶」第 4 个",
+    "aliases": [
+      "第四个会话",
+      "置顶第四个",
+      "打开第四个会话"
+    ]
+  },
+  {
+    "id": "pin_5",
+    "name": "打开置顶的第五个会话",
+    "category": "系统",
+    "action": "system",
+    "op": "pinned:5",
+    "hint": "Claude 左栏「已置顶」第 5 个",
+    "aliases": [
+      "第五个会话",
+      "置顶第五个",
+      "打开第五个会话"
+    ]
+  },
+  {
+    "id": "app_deepseek",
+    "name": "打开DeepSeek",
+    "category": "应用",
+    "action": "open_app",
+    "target": "@app:DeepSeek Harness",
+    "hint": "打开 DeepSeek Harness",
+    "aliases": [
+      "deepseek",
+      "深度求索",
+      "deepseekharness",
+      "harness"
+    ]
+  },
+  {
+    "id": "ask_time",
+    "name": "现在几点",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:time",
+    "aliases": [
+      "几点了",
+      "几点",
+      "现在时间",
+      "报时",
+      "什么时间了"
+    ],
+    "hint": "现在几点"
+  },
+  {
+    "id": "ask_date",
+    "name": "今天几号",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:date",
+    "aliases": [
+      "今天星期几",
+      "星期几",
+      "几号",
+      "今天日期",
+      "今天周几",
+      "今天几月几号"
+    ],
+    "hint": "今天几号"
+  },
+  {
+    "id": "ask_window",
+    "name": "当前是什么窗口",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:window",
+    "aliases": [
+      "现在是什么窗口",
+      "现在在哪个程序",
+      "这是什么程序",
+      "当前程序",
+      "当前窗口"
+    ],
+    "hint": "当前是什么窗口"
+  },
+  {
+    "id": "ask_pins",
+    "name": "置顶有哪些会话",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:pins",
+    "aliases": [
+      "有哪些会话",
+      "置顶列表",
+      "置顶都有什么",
+      "会话列表",
+      "有哪些置顶"
+    ],
+    "hint": "置顶有哪些会话"
+  },
+  {
+    "id": "ask_status",
+    "name": "电脑状态",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:status",
+    "aliases": [
+      "系统状态",
+      "内存多少",
+      "cpu占用",
+      "电脑卡不卡",
+      "内存占用",
+      "磁盘空间",
+      "硬盘还剩多少"
+    ],
+    "hint": "电脑状态"
+  },
+  {
+    "id": "ask_clip",
+    "name": "读剪贴板",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:clipboard",
+    "aliases": [
+      "读一下剪贴板",
+      "剪贴板里是什么",
+      "念剪贴板",
+      "复制了什么"
+    ],
+    "hint": "读剪贴板"
+  },
+  {
+    "id": "ask_help",
+    "name": "你能做什么",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:help",
+    "aliases": [
+      "你会什么",
+      "能说什么",
+      "你能干什么",
+      "都能做什么"
+    ],
+    "hint": "你能做什么"
+  },
+  {
+    "id": "do_again",
+    "name": "再来一次",
+    "category": "助手",
+    "action": "system",
+    "op": "again",
+    "aliases": [
+      "再来",
+      "再来一遍",
+      "再一次",
+      "重复上一条",
+      "再执行一次",
+      "再做一次",
+      "继续"
+    ],
+    "hint": "再来一次"
+  },
+  {
+    "id": "say_again",
+    "name": "再说一遍",
+    "category": "助手",
+    "action": "system",
+    "op": "repeatspeech",
+    "aliases": [
+      "你说什么",
+      "没听清",
+      "重复一遍",
+      "再说一次",
+      "刚才说什么"
+    ],
+    "hint": "再说一遍"
+  },
+  {
+    "id": "say_stop",
+    "name": "别说了",
+    "category": "助手",
+    "action": "system",
+    "op": "stopspeech",
+    "aliases": [
+      "闭嘴",
+      "安静",
+      "停止朗读",
+      "不用念了",
+      "别念了"
+    ],
+    "hint": "别说了"
+  }
+]
