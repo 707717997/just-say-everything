@@ -29,6 +29,8 @@ SayAllVoice\
 
 重启 SayAllVoice，日志里出现 `local asr ready` 就好了。
 
+模型由 FunAudioLLM 发布，本仓库不分发模型文件；使用前请查看并遵守其发布页标注的许可证。
+
 ## 声音从哪来
 
 用遥控器时，SayAll 会把遥控器的声音送进虚拟声卡（VB-Cable），程序从 `CABLE Output` 录音，只在按住语音键期间录。

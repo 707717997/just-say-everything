@@ -61,6 +61,8 @@ namespace SayAllVoice
                         try { if (Clipboard.ContainsText()) t = Clipboard.GetText(); } catch { }
                         return t.Length == 0 ? "剪贴板里没有文字" : "剪贴板内容：" + Clean(t, 200);
                     }
+                case "about":
+                    return "我是 " + Origin.Name + "，" + Origin.Version + " 版，作者 " + Origin.Author + "，在 GitHub 开源。按住说一句，电脑就去做。";
                 case "help":
                     return "你可以说打开程序、回到桌面、切到上一个程序、聚焦输入框、打开第二个会话、读第二个会话、现在几点、电脑状态、音量加、再来一次。两件事可以用然后连起来说。";
             }

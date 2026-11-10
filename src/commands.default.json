@@ -1705,6 +1705,21 @@
     "hint": "现在几点"
   },
   {
+    "id": "ask_about",
+    "name": "你是谁",
+    "category": "助手",
+    "action": "system",
+    "op": "ask:about",
+    "aliases": [
+      "你叫什么",
+      "你叫什么名字",
+      "谁做的你",
+      "你的作者是谁",
+      "just say everything"
+    ],
+    "hint": "关于"
+  },
+  {
     "id": "ask_date",
     "name": "今天几号",
     "category": "助手",

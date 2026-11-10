@@ -36,10 +36,12 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1 -Install
 
 Or grab the exe from [Releases](https://github.com/707717997/just-say-everything/releases). Optional offline ASR setup is in [asr/README.md](asr/README.md).
 
-## Disclaimer
-
-A personal open-source project, not affiliated with Xiaomi, SayAll, WeChat, Douyin or Anthropic. These names are only used to describe compatibility.
-
 ## License
 
-[MIT](LICENSE)
+[Apache License 2.0](LICENSE): personal and commercial use, modification and redistribution are all allowed, as long as you keep [LICENSE](LICENSE) and [NOTICE](NOTICE) and mark the files you changed. Third-party components are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Provided as is, without warranty.
+
+## Trademarks
+
+The name "Just Say Everything" and the project icon are **not** licensed with the code. Forks are welcome, but please ship modified versions under a different name and icon, and say they are based on this project.
+
+A personal open-source project, not affiliated with Xiaomi, SayAll, WeChat, Douyin or Anthropic. These names are only used to describe compatibility.

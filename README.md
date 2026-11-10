@@ -11,7 +11,7 @@
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET%20Framework-4.x%20(系统自带)-512BD4">
   <img alt="Commands" src="https://img.shields.io/badge/内置指令-140%2B-38bdf8">
   <img alt="Offline ASR" src="https://img.shields.io/badge/本地识别-SenseVoice-a78bfa">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
+  <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-green">
 </p>
 
 <p align="center"><a href="README.en.md">English</a> · <a href="docs/COMMANDS.md">全部指令</a> · <a href="docs/使用说明.md">完整使用说明</a></p>
@@ -125,10 +125,18 @@ SayAllVoice.exe --pins                       # 列出 Claude 置顶会话（只�
 
 欢迎提 Issue 和 PR，尤其是**你常说但它没听懂的说法**——这类反馈最有用。
 
-## 声明
+## 隐私
+
+不联网、不上传。语音识别要么走你自己的输入法，要么在本机跑；使用记录只存在 `%APPDATA%\SayAllVoice`，不记打字内容、不截图、不录音，30 天自动删除，托盘可关。
+
+## 许可证
+
+代码以 [Apache License 2.0](LICENSE) 开源：个人和商业使用、修改、再分发都可以，前提是保留 [LICENSE](LICENSE) 和 [NOTICE](NOTICE)，并在改动过的文件里注明修改。第三方组件见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+软件按现状提供，不附带任何担保；它会模拟按键、执行关机等系统操作，请自行评估使用风险。
+
+## 商标
+
+「Just Say Everything」这个名称和项目图标**不随代码授权**。欢迎 fork 和二次开发，但发布修改版时请换一个名字和图标，并注明基于本项目，不要让人误以为是官方版本。
 
 本项目是个人开源作品，与小米、无线麦 SayAll、微信输入法、抖音、Anthropic 均无关联，相关名称仅用于说明兼容性。
-
-## License
-
-[MIT](LICENSE)

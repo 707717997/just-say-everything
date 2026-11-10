@@ -132,6 +132,7 @@ namespace SayAllVoice
                 if (!Asr.Ready) Asr.Start();
             };
             _sayAllKeeper.Start();
+            Log.Write(Origin.Name + " " + Origin.Version + " (" + Origin.Url + ", " + Origin.Mark + ")");
             Log.Write("SayAllVoice started, hotkey=" + string.Join("+", S.HotkeyKeys.ToArray()) + " hook=" + S.HookEnabled);
         }
 
@@ -141,7 +142,7 @@ namespace SayAllVoice
         {
             Tray = new NotifyIcon();
             Tray.Icon = LoadAppIcon(SystemInformation.SmallIconSize);
-            Tray.Text = "SayAll 语音指令";
+            Tray.Text = Origin.Name;
             Tray.Visible = true;
             Tray.DoubleClick += delegate { ShowLibrary(); };
 
@@ -173,6 +174,15 @@ namespace SayAllVoice
                 catch (Exception ex) { Log.Warn("open help failed: " + ex.Message); }
             };
             menu.Items.Add(help);
+
+            ToolStripMenuItem about = new ToolStripMenuItem("关于 " + Origin.Name);
+            about.Click += delegate
+            {
+                if (MessageBox.Show(Origin.Name + " " + Origin.Version + "\n\n作者：" + Origin.Author + "\n许可证：" + Origin.License
+                        + "\n" + Origin.Url + "\n\n打开项目主页？", "关于", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+                    Process.Start(Origin.Url);
+            };
+            menu.Items.Add(about);
 
             menu.Items.Add(new ToolStripSeparator());
 
